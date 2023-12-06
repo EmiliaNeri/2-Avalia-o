@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FCCCA2;
+}
+
+header{
+    background-color: #FCBB2D;
+    color: #452109;
+    height: 60px;
+}
+
+header img.logo {
+    max-width: 150px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #452109;
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #452109;
+}
+
+section.hero {
+    background-image: url(img/fundo.png);
+    height: 650px;
+    background-size: cover;
+    color: #000;
+}
+
+section.hero .container {
+    height: 100%;
+}
+
+section.hero .hero-content h1 {
+    font-size: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+
+section.hero .hero-content h2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    font-family: 'Young Serif', serif;
+}
+
+section.hero .hero-content p {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    font-family: 'Young Serif', serif;
+}
+
+section.hero .hero-content a {
+    background-color: #FCBB2D;
+    text-decoration: none;
+    color: #000;
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.search-botao {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 15%;
+    margin-top: 100px;
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+form{
+    width: 40%;
+    background-color: #FFF;
+    min-width: 350px;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+label{
+    width: 100%;
+    text-align: center;
+    align-self: flex-start;
+    margin: 5px;
+    transition: 0.15s linear;
+    color: #452109;
+    font-family: 'Young Serif', serif;
+}
+
+label:focus-within{
+    color: #FCBB2D;
+}
+
+.inupt-single input{
+    min-width: 320px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #C1C1C1;
+    margin-top: 15px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+button{
+    display: block;
+    margin: 15px auto;
+    height: 40px;
+    min-width: 320px;
+    border: none;
+    border-radius: 5px;
+    background: #FCBB2D;
+    color: #452109;
+    font-size: 15px;
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+button a {
+    text-decoration: none;
+    color: #452109;
+}
+
+form h2{
+    text-align: center;
+    font-size: 25px;
+    color: #452109;
+    font-family: 'Young Serif', serif;
+}
+
+form p{
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Young Serif', serif;
+}
+
+h1{
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+
+.link {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 15%;
+    margin-top: 100px;
+    background-color: #FCBB2D;
+    text-decoration: none;
+    color: #452109;
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+
+.search-about img{
+    width: 65%;
+    height: 65%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+.search-about p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 14px;
+    font-family: 'Young Serif', serif;
+}
+
+.txt {
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 15px;
+    list-style-position: inside;
+    text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    section.hero {
+        background-image: url(img/instrumentos.png);
+        height: 590px;
+    }
+
+    .search-about p{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        font-size: 14px;
+        font-family: 'Young Serif', serif;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
